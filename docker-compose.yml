@@ -1,7 +1,7 @@
 # write docker-compose file for a simple web application with a database
 #=======================================================================
 
-version: '3.8
+version: '3.8'
 services:
   web:
     build: .
