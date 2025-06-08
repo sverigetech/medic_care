@@ -1,0 +1,11 @@
+# write docker-compose file for a simple web application with a database
+#=======================================================================
+
+version: '3.8
+services:
+  web:
+    build: .
+    image: medic_care
+    container_name: medic-care-container
+    ports:
+      - "80:80"
